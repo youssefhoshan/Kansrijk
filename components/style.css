@@ -1,0 +1,186 @@
+/* Algemene opmaak voor de hele pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header-stijlen */
+.header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header img {
+    width: 160px;
+    height: auto;
+}
+
+.user-info {
+    margin-right: 10px;
+}
+
+.header-links {
+    margin-left: 10px;
+}
+
+.header-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header-links a:hover {
+    color: #fbc57d;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+/* Footer-stijlen */
+.footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* Inlog- en registratiepagina-stijlen */
+.login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.inloggen-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Tabelstijlen */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Toevoeging voor formulieren in de tabel */
+/* Tabelstijlen */
+.jongeren-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.jongeren-table, .jongeren-table th, .jongeren-table td {
+    border: 1px solid #ddd;
+}
+
+.jongeren-table th, .jongeren-table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.jongeren-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.jongeren-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Toevoeging voor formulieren in de tabel */
+.jongeren-form {
+    margin-top: 20px;
+}
+
+.jongeren-form input[type="text"],
+.jongeren-form input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.jongeren-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jongeren-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+.center_dashboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
